@@ -1,4 +1,4 @@
-FROM node:22-alpine
+FROM node:lts-alpine
 
 # Install nginx and git
 RUN apk add --no-cache nginx git
