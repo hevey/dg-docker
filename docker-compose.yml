@@ -3,7 +3,7 @@ services:
     build: .
     container_name: dg-docker
     ports:
-      - "80:80"
+      - "10080:80"
     env_file:
       - .env
     restart: unless-stopped
